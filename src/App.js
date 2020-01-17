@@ -1,3 +1,7 @@
+/**
+ * @Author: Raman Hira
+ */
+
 import React, { Component } from 'react';
 
 import {SearchBox} from './components/search-bar/search-box.component';
