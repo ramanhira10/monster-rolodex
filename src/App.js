@@ -32,7 +32,7 @@ class App extends Component {
     
     const {monsters, searchField} = this.state,
       filteredMonsters = monsters.filter((monster) => {
-        monster.name.toLowerCase().includes(searchField.toLowerCase())
+        return monster.name.toLowerCase().includes(searchField.toLowerCase())
       });
 
     return (
